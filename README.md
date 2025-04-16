@@ -1,1 +1,1 @@
-# prince.photography
+# fuck you yogesh
