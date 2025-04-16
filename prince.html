@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>PRINCE SHARMA</title>  
+  <link rel="icon" type="/Users/princesharma/Documents/profile.html/favicon.ico" href="/Users/princesharma/Documents/profile.html/favicon.ico"> 
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      overflow: hidden;
+      font-family: 'Poppins', sans-serif;
+      background-color: #eae4e4;
+      color: #4f4f4f;
+    }
+    .container {
+      display: grid;
+      grid-template-rows: 30% 35% 35%;
+      height: 100vh;
+    }
+    header {
+      background: #799ca0f0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      color: white;
+      position: relative;
+      padding: 20px 40px;
+      text-align: left;
+    }
+    header img {
+      height: 275px;
+      width: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 200px;
+      border: 2px solid rgb(0, 0, 0);
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    .bio {
+      font-size: 1.1rem;
+      margin-top: 8px;
+      color: #000000c7;
+      max-width: 600px;
+    }
+    .header-text {
+      display: flex;
+      flex-direction: column;
+    }
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+    }
+    .gallery img {
+      height: 100%;
+      width: auto;
+      max-height: 90%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .bottom {
+      display: flex;
+      padding: 10px 30px;
+      justify-content: space-between;
+    }
+    .services, .contact {
+      width: 48%;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+    }
+    th, td {
+      padding: 6px;
+      border-bottom: 1px solid #648e95;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea, button {
+      padding: 6px;
+      font-size: 0.9rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #333;
+      color: white;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="/Users/princesharma/Downloads/pp.jpeg" alt="Photographer Photo">
+      <div class="header-text">
+        <h1>𝒫𝓇𝒾𝓃𝒸ℯ 𝒮𝒽𝒶𝓇𝓂𝒶</h1>
+        <p class="bio">Passionate about capturing moments through photography and videography, Prince has a keen eye 
+          for editing and graphic designing. With an artistic flair, he weaves creativity into every frame, transforming 
+          simple scenes into visual stories. Outside of studies, he has a deep love for travel, constantly exploring new 
+          places and cultures, all while finding inspiration for the next project. His ambition blends academics with artistic
+           expression, making each day a new adventure in both learning and creativity.</p>
+      </div>
+    </header>
+    <div class="gallery">
+      <img src="/Users/princesharma/Downloads/p.jpeg" alt="Janki Mandir">
+      <img src="/Users/princesharma/Downloads/WhatsApp Image 2025-04-15 at 2.40.22 PM.jpeg" alt="Portrait">
+      <img src="/Users/princesharma/Downloads/pf.jpeg" alt="Chaath">
+      <img src="/Users/princesharma/Downloads/WhatsApp Image 2025-04-15 at 2.44.39 PM (1).jpeg" alt="Street">
+    </div>
+    <div class="bottom">
+      <div class="services">
+        <h2>Services</h2>
+        <table>
+          <tr><th>Service</th><th>Price</th></tr>
+          <tr><td>Wedding Photography</td><td>$1200</td></tr>
+          <tr><td>Portrait Session</td><td>$250</td></tr>
+          <tr><td>Event Photography</td><td>$150/hr</td></tr>
+        </table>
+      </div>
+      <div class="contact">
+        <h2>Contact</h2>
+        <form>
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea rows="3" placeholder="Message" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
